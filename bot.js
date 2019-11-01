@@ -49,7 +49,7 @@ bot.on('message',message=>{
     
     
       if(msg.startsWith(prefix+'cannibalism')){
-            message.reply('Yes!!!')
+            message.reply('I love me some good chicken!')
         }
 
  
