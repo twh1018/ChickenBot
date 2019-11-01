@@ -37,12 +37,18 @@ bot.on('message',message=>{
             message.channel.send('!hi')
             message.channel.send('!no')
             message.channel.send('!I\'m Bored')
+            message.channel.send('!cannibalism')
         }
 
 
 
 
         if(msg.startsWith(prefix+'no')){
+            message.reply('Yes!!!')
+        }
+    
+    
+      if(msg.startsWith(prefix+'cannibalism')){
             message.reply('Yes!!!')
         }
 
